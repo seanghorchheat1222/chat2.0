@@ -1,0 +1,11 @@
+# infrastructure
+
++ backend
+- npm i composer
+- config MAIL_MAILER to integrated with OTP request
+- run: php artisan serve
+- reverb/webshocket: php artisan reverb:start, php artisan queue:work
+
++ frontend
+- npm i
+- npm run build
